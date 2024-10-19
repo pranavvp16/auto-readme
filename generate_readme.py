@@ -1,6 +1,6 @@
 from contributors import contributors
 
-def generate_readme(contributor, size=100, cols=5):
+def generate_readme(contributor, size=100, cols=6):
     md_output = "## Contributors\n\n<table>\n  <tr>\n"
     
     count = 0
